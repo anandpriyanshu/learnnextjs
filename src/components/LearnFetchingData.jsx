@@ -1,10 +1,9 @@
-async function getData() {
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts")
-    return res.json()
 
-}
 const LearnFetchingData = async () => {
-    const data = await getData()
+
+    const res = await fetch("https://jsonplaceholder.typicode.com/posts")
+
+    const data = await res.json()
     console.log(data)
     return (
         <>
@@ -14,7 +13,7 @@ const LearnFetchingData = async () => {
                 return <div key={i}>
 
                     <h1>{ele.title}</h1>
-                    <p>{ele.body}</p>
+                    <p>{ele.id}</p>
                     <hr />
                 </div >
 
