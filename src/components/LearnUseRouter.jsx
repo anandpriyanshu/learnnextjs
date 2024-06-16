@@ -10,7 +10,7 @@ const LearnUseRouter = () => {
 
         <>
 
-            <h1>LearnUseRouter</h1>
+            <h1>LearnUseRouter</h1> <br></br>
             <button type="button" onClick={() => router.push("/admin/dashboard")}>Go to Admin Dashboard</button>
         </>
     )

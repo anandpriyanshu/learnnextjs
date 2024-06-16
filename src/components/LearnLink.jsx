@@ -2,7 +2,7 @@ import Link from "next/link"
 
 
 const LearnLink = () => {
-    const id = 2
+    const id = 100
     return (
         <>
 
